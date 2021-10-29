@@ -1,0 +1,44 @@
+.home {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+.home body {
+    background-color: #b43a0a;
+}
+.home img {
+    border-radius: 20px;
+}
+a div {
+    height:250px;
+    width:250px;
+    border-radius: 10px;
+    border: 4px solid #0088e2;
+    margin: 15px;
+    display: inline-block;
+}
+a div:hover {
+    border: 4px solid #0000c1;
+}
+.home.pepper-box {
+    background-image: url(img/icon-stuffed-peppers.jpg);
+}
+.home.meat-box {
+    background-image: url(img/icon-pasta-meat-sauce.jpg);
+}
+.home.rice-box {
+    background-image: url(img/icon-fried-rice.jpg);
+}
+.home a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 250px;
+}
+.home.white-box {
+    width:50%;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+}

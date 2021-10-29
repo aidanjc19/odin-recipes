@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html class="home" lang="en">
+<head class="home">
     <title>Odin Recipes</title>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Home recipes!</h1>
-    <img src="img/homer-cooking.gif">
-    <h3>The only recipes I know how to cook!</h3>
-    <ul>
-        <li><a href="recipes/stuffed-peppers.html">Stuffed Bell Peppers</a></li>
-        <li><a href="recipes/pasta-meat-sauce.html">Pasta With Meat Sauce</li>
-        <li><a href="recipes/fried-rice.html">Fried Rice</li>
-    </ul>
+<body class="home">
+    <div class="home white-box">
+        <h1 class="home header"> Home recipes!</h1>
+        <img src="img/homer-cooking.gif" class="home img">
+        <h3 class="home sub">The only recipes I know how to cook!</h3>
+
+    <a class="home pepper-button" href="recipes/stuffed-peppers.html">
+        <div class="home pepper-box">Stuffed Bell Peppers</div>
+    </a>
+    <a class="home meat-sauce-button" href="recipes/pasta-meat-sauce.html">
+        <div class="home meat-box">Pasta With Meat Sauce</div>
+    </a>
+    <a class="home rice-button" href="recipes/fried-rice.html">
+        <div class="home rice-box">Fried Rice</div>
+    </a>
+    </div>
 </body>
 </html>
