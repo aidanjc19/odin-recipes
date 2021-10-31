@@ -69,11 +69,11 @@ mark {
     line-height: 35px;
 }
 .home-button {
-    background-color: #50f87d;
+    background-color: #14929b;
     width: 200px;
     height: 35px;
     border-radius: 2px;
-    border: 3px solid #50f87de1;
+    border: 3px solid #14929b;
     margin: 0 auto;
 }
 .home-button:hover {
